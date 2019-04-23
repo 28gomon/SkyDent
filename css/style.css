@@ -34,6 +34,10 @@ header.masthead img {
   color: blue;
 }
 
+.hidden-none {
+  display: none;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
 }
@@ -544,7 +548,7 @@ body {
 }
 
 .doctors .doctors-items .item {
-  width: 50%;
+  width: 33.3333%;
   margin-bottom: 30px;
   padding: 0 15px 0 15px;
 }
@@ -568,12 +572,21 @@ body {
   margin: 20px 0;
 }
 
+.doctors .doctors-items .item .cover p {
+  height: 72px;
+  min-height: 72px;
+}
+
 @media (max-width: 992px) {
   .doctors .doctors-items .item {
     width: 100%;
   }
   .doctors .doctors-items .item:last-child {
     margin-bottom: 0;
+  }
+  .doctors .doctors-items .item .cover p {
+    height: auto;
+    min-height: auto;
   }
 }
 
