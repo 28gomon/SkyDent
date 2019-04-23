@@ -1,0 +1,57 @@
+.phone-block
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    margin-top: 30px
+    a 
+        font-size: 18px
+        font-weight: 600
+        img 
+            width: 20px
+            margin-top: -3px
+
+.email-block
+    display: flex 
+    justify-content: center
+    align-items: center
+    margin-top: 30px
+    .wrapp
+        text-align: center
+    span 
+        display: block
+        margin-bottom: 15px
+    a 
+        font-size: 18px
+        font-weight: 600
+
+@media (max-width: 1200px)
+
+    header.masthead
+        h1 
+            font-size: 28px
+    .phone-block
+        a 
+            font-size: 18px
+            width: 100%
+            padding: 5px 0
+
+@media (max-width: 992px)
+    
+    header.masthead
+        padding-top: 9rem
+        padding-bottom: calc(10rem - 50px)
+        text-align: center
+
+    .phone-block
+        a 
+            font-size: 18px
+            width: auto
+            padding: 5px 0
+
+@media (max-width: 768px)
+
+    .phone-block
+        a 
+            font-size: 18px
+            width: 100%
+            padding: 5px 0

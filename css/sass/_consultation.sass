@@ -1,0 +1,127 @@
+.consult-container
+    display: flex 
+    justify-content: space-between
+    width: 100%
+    align-items: center
+    .image-block
+        width: 50%
+        text-align: center
+        img 
+            width: 70%
+            margin: 0 auto
+    .text-block
+        width: 50%
+
+.button-consultation
+    display: block 
+    margin-top: 30px
+    a 
+        background-color: #0061bc
+        color: #ffffff
+        font-size: 18px
+        padding: 12px 35px
+        border-radius: 3px
+        box-shadow: 0 1px 18px rgba(38, 38, 38, .45)
+        transition: all .25s ease-in-out
+        &:hover
+            outline: none
+            text-decoration: none
+            color: #eaeaee
+            box-shadow: 0 1px 18px rgba(38, 38, 38, .25)
+
+.mfp-content
+    background: #ffffff
+    width: 70%
+    margin: auto
+
+.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content
+    width: 70%
+
+.white-popup-block
+    padding: 20px
+
+.form-container
+    display: flex 
+    flex-wrap: wrap 
+    justify-content: space-between
+    margin: 0
+    padding-left: 0
+    li 
+        list-style-type: none
+        label 
+            display: block
+            margin-bottom: 0
+        input 
+            display: block
+            width: 100%
+            height: 45px
+            margin-bottom: 15px
+            border: 2px solid #0061bc
+            border-radius: 3px
+            padding-left: 15px
+        textarea
+            width: 100%
+            max-width: 100%
+            height: 213px
+            max-height: 300px
+            border: 2px solid #0061bc
+            border-radius: 3px
+            padding: 15px 0 0 15px
+    .block-left
+        width: 50%
+        padding: 0 15px
+    .block-right
+        width: 50%
+        padding: 0 15px
+    .form-button
+        width: 100%
+        display: block 
+        margin-top: 20px
+        margin-bottom: 10px
+        .button
+            background-color: #0061bc
+            color: #ffffff
+            font-size: 16px
+            border: none
+            border-radius: 3px
+            padding: 12px 35px
+
+
+@media (max-width: 992px)
+
+    .form-container
+        li 
+            textarea
+                width: 100%
+                max-width: 100%
+                height: 100px
+                max-height: 120px
+                border: 2px solid #0061bc
+                border-radius: 3px
+                padding: 15px 0 0 15px
+        .block-left
+            width: 100%
+        .block-right
+            width: 100%
+
+@media (max-width: 768px)
+
+    .consult-container
+        display: block
+        text-align: center
+        .text-block
+            width: 100%
+            margin-top: 50px
+
+        .image-block
+            display: none
+
+@media (max-width: 480px)
+
+    .mfp-content
+        background: #ffffff
+        width: 95%
+        margin: auto
+
+    .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content
+        width: 95%

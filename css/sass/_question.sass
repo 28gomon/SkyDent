@@ -1,0 +1,91 @@
+.container-tab
+  margin: 40px auto 0 auto
+  max-width: 800px
+  padding: 0 20px
+
+/* TABS
+
+.accordion-tabs
+  *zoom: 1
+  width: 100%
+  border: 1px solid #dddddd
+  border-radius: 0.1875em
+  margin-bottom: 1.5em
+  margin-left: 0
+  padding-left: 0
+  &:before
+    content: " "
+    display: table
+  &:after
+    content: " "
+    display: table
+    clear: both
+  li
+    list-style: none
+    &.tab-head-cont
+      &:first-child a
+        border-top-left-radius: 0.1875em
+        border-top-right-radius: 0.1875em
+        border-top: 0
+      &:last-child a
+        border-bottom-left-radius: 0.1875em
+        border-bottom-right-radius: 0.1875em
+      a
+        text-decoration: none
+        border-top: 1px solid #dddddd
+        color: #383838
+        display: block
+        padding: 0.75em 0.809em
+        font-weight: 600
+        opacity: .85
+        &:hover
+          color: #000000
+        &:focus
+          outline: none
+        &.is-active
+          background-color: #f7f7f7
+          border-bottom: 0
+          color: #333333
+          opacity: 1
+      section
+        padding: 1.5em 1.618em
+        background: #f7f7f7
+        display: none
+        overflow: hidden
+        width: 100%
+
+/* RESPONSIVE
+@media screen and (min-width: 40em)
+  .accordion-tabs
+    border: none
+    position: relative
+    li.tab-head-cont
+      display: inline
+      &:last-child a
+        border-bottom-left-radius: 0
+        border-bottom-right-radius: 0
+      a
+        display: inline-block
+        vertical-align: baseline
+        zoom: 1
+        *display: inline
+        *vertical-align: auto
+        border-top: 0
+        border-top-right-radius: 0.1875em
+        border-top-left-radius: 0.1875em
+        &.is-active
+          background-color: #f7f7f7
+          border: 1px solid #dddddd
+          border-bottom: 1px solid #f7f7f7
+          margin-bottom: -1px
+      section
+        border-bottom-left-radius: 0.1875em
+        border-bottom-right-radius: 0.1875em
+        border: 1px solid #dddddd
+        float: left
+        left: 0
+        padding: 0.75em 0.809em
+        p
+          -webkit-columns: 2
+          -moz-columns: 2
+          columns: 2

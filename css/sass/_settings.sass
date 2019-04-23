@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,400i,500,600,700,800,800i&subset=cyrillic')
+
+body 
+    font-family: 'Fira Sans', sans-serif
+
+.bg-primary
+    // background: url("../element/image/fill-bg.svg") repeat
+    background: #0061bc
+    
+.page-section
+    position: relative
+    padding: 8rem 0 3rem 0
+
+.page-section-no-element
+    position: relative
+    padding: 8rem 0 8rem 0
+
+.element-svg-top
+    position: absolute
+    top: 0
+    width: 100%
+    padding: 7% 5rem -6rem
+    background-color: #ffffff
+    text-align: center
+    color: #fff
+    border-radius: 2px
+    &::before
+        content: ''
+        padding-top: 6%
+        
+        background: linear-gradient(to right top, transparent 49.5%, #ffffff 50%) left / 50.025% 100% no-repeat,
+        linear-gradient(to left top, transparent 49.5%, #ffffff 50%) right / 50.025% 100% no-repeat
+        
+        position: absolute
+        top: 100%
+        left: 2px
+        right: 2px
+
+.element-svg-bottom
+    position: absolute
+    bottom: 0
+    width: 100%
+    padding: 7% 5rem -6rem
+    background-color: #0061bc
+    text-align: center
+    color: #fff
+    border-radius: 2px
+    &::before
+        content: ''
+        padding-top: 6%
+        
+        background: linear-gradient(to right top, transparent 49.5%, #0061bc 50%) left / 50.025% 100% no-repeat,
+        linear-gradient(to left top, transparent 49.5%, #0061bc 50%) right / 50.025% 100% no-repeat
+        
+        position: absolute
+        top: 100%
+        left: 2px
+        right: 2px
+
+.section-title
+    font-size: 30px
+    font-weight: 600
+
+@media (max-width: 992px)
+
+    .hidden-sm
+        display: none
+
+    .page-section-no-element
+        position: relative
+        padding: 6rem 0 6rem 0
+
+@media (max-width: 480px)
+
+    .page-section-no-element
+        position: relative
+        padding: 4rem 0 4rem 0
