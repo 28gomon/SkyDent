@@ -784,8 +784,8 @@ body {
     padding: 0.75em 0.809em;
   }
   .accordion-tabs li.tab-head-cont section p {
-    -webkit-columns: 2;
-    columns: 2;
+    -webkit-columns: 1;
+    columns: 1;
   }
 }
 
